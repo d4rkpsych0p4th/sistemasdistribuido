@@ -1,0 +1,20 @@
+KUBERNETES
+
+##comandos
+siempre hacer este comando al iniciar la maquina
+-->lo que hace es dame todos los nodos fisicos
+kubectl get nodes
+kubectl get pods
+kubectl get deployments
+
+
+ ## cambiar el role del control plain
+kubectl taint nodes --all node-role.kubernetes.io/control-plane-
+kubectl get nodes
+
+
+## crear deployment de kuberbootcamp con 3 contenedores
+kubectl create deployment kubernetes-bootcamp --image=docker.io/jocatalin/kubernetes-bootcamp:v2 --replicas=3
+hacemos
+kubectl get pods 
+aparecen 3 running

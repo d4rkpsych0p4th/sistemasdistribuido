@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/clientMultmatrix.dir/utils.cpp.o CMakeFiles/clientMultmatrix.dir/multmatrix.cpp.o  -o clientMultmatrix -lpthread 
