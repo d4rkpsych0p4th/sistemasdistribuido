@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kubernetes-matrix
+  namespace: default
+spec:
+ replicas: 3
+ selector:
+  matchLabels:
+    app: matrix
+ template:
+  metadata:
+   labels:
+    app: matrix
+  spec:
+   containers:
+   - name: kubernetes-matrix
+     image: docker.io/alvarocervera/matrix:2.0

@@ -1,0 +1,4 @@
+/home/ubuntu/dockermatrix/source/CMakeFiles/edit_cache.dir
+/home/ubuntu/dockermatrix/source/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/dockermatrix/source/CMakeFiles/multMatrix.dir
+/home/ubuntu/dockermatrix/source/CMakeFiles/serverMultmatrix.dir
